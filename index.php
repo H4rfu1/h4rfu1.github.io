@@ -42,22 +42,25 @@
 <body class="back container">
     <div class="row h-100" >
        <div class="col-sm-12 my-auto">
-           <form class="white">
+           <form class="white" target="dashboard.php" method="POST">
              <label class="d-flex justify-content-center judul">LOGIN</label>
              <br>
              <div class="form-group">
-               <label for="exampleInputEmail1">Username / Email</label>
-               <input type="email" class="form-control" id="username" placeholder="Masukan Username/Email" name="username">
-               <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+               <label for="email">Email</label>
+               <input type="" class="form-control" id="email" placeholder="Masukan Email" name="email">
              </div>
              <div class="form-group">
-               <label for="exampleInputPassword1">Password</label>
+               <label for="password">Password</label>
                <input type="password" class="form-control" id="Password"name="password" placeholder="Masukan Password">
              </div>
              <div class="form-group form-check">
                <input type="checkbox" class="form-check-input" id="exampleCheck1">
                <label class="form-check-label" for="exampleCheck1">ingat saya</label>
              </div>
+             <div>
+               <a href="register.php" class="float-right" style="text-decoration: underline;">belum punya akun?</a>
+             </div>
+             <br>
              <div class="row justify-content-center">
                 <button type="submit" class="btn btn-primary">LOGIN</button>
             </div>
